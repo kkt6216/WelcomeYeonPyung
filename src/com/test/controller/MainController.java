@@ -23,7 +23,7 @@ public class MainController
 		// 데이터 전달 명령
 		
 		
-		return "/WEB-INF/view/Hello.jsp";
+		return "/WEB-INF/view/Main.jsp";
 	}
 	
 	
