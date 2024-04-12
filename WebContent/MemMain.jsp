@@ -62,6 +62,17 @@
 	margin-top: 50px;
 }
 
+.gg {
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    top: 160px;
+    right: 160px;
+}
+
+
+
+
 
  
 </style>
@@ -362,39 +373,51 @@ function addFriends(us_code2)
      
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary"><i class="bi bi-heart"></i></small>
               </div>
             </div>
           </div>
         </div>
+        
         <div class="col">
           <div class="card shadow-sm">
+          	
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            	<div style=" height: 200px;">
+            		<img src="images/cg_car.jpg" style="width: 100%; height: 100%;"/>
+            	</div>
+	              <div class="card-text">그룹 명: 안녕하세요.</div>
+	              <div class="card-text">그룹소개 : 서울 맛집 탐방</div>
+	              <div class="card-text">그룹 원 : 15명</div>
+     
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary"><img style="width: 35px; height: 35px;" src="images/heart.png" alt="" /></small>
               </div>
             </div>
           </div>
         </div>
+        
+        
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          	
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            	<div style=" height: 200px;">
+            		<img src="images/cg_car.jpg" style="width: 100%; height: 100%;"/>
+            	</div>
+	              <div class="card-text">그룹 명: 안녕하세요.</div>
+	              <div class="card-text">그룹소개 : 서울 맛집 탐방</div>
+	              <div class="card-text">그룹 원 : 15명</div>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary"><img style="width: 35px; height: 35px;" src="images/heart.png" alt="" /></small>
               </div>
             </div>
           </div>
@@ -403,16 +426,49 @@ function addFriends(us_code2)
 
        
       </div>
+      
+        <div class="gg" >
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div style="height: 200px;">
+                    <img src="images/basic-profile.png" style="width: 100%; height: 100%;" />
+                </div>
+                <div class="card-text">이름</div>
+                <div class="card-text">회원번호</div>
+                <div class="card-text">아이디</div>
+                <!-- 다른 프로필 정보들 -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+      
     </div>
   </div>
   
-  <div class="gg" style="    width: 200px;
-    height: 200px;
-    border: 1px solid;
-    position: ;
-    top: 165px;
-    right: 269px;">
-  </div>
+ <!--  <div class="gg" style="    width: 300px;height: 200px;position: fixed; top: 165px; right: 269px;">
+  		<div class="card shadow-sm">
+            <div class="card-body">
+            	<div style=" height: 200px;">
+            		<img src="images/basic-profile.png"" style="width: 100%; height: 100%;"/>
+            	</div>
+	              <div class="card-text">그룹 명: 안녕하세요.</div>
+	              <div class="card-text">그룹소개 : 서울 맛집 탐방</div>
+	              <div class="card-text">그룹 원 : 15명</div>
+     
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+  </div> -->
 
 
 	<div>
