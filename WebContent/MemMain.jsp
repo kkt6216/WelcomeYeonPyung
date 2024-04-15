@@ -359,8 +359,8 @@ function addFriends(us_code2)
 	 	</div>
 
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
+      <div class="row">
+        <div class="col-3">
           <div class="card shadow-sm">
           	
             <div class="card-body">
@@ -381,7 +381,7 @@ function addFriends(us_code2)
           </div>
         </div>
         
-        <div class="col">
+        <div class="col-3">
           <div class="card shadow-sm">
           	
             <div class="card-body">
@@ -403,7 +403,27 @@ function addFriends(us_code2)
         </div>
         
         
-        <div class="col">
+        <div class="col-3">
+          <div class="card shadow-sm">
+          	
+            <div class="card-body">
+            	<div style=" height: 200px;">
+            		<img src="images/cg_car.jpg" style="width: 100%; height: 100%;"/>
+            	</div>
+	              <div class="card-text">그룹 명: 안녕하세요.</div>
+	              <div class="card-text">그룹소개 : 서울 맛집 탐방</div>
+	              <div class="card-text">그룹 원 : 15명</div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">입장하기</button>
+                </div>
+                <small class="text-body-secondary"><img style="width: 35px; height: 35px;" src="images/heart.png" alt="" /></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-3">
           <div class="card shadow-sm">
           	
             <div class="card-body">
@@ -430,7 +450,7 @@ function addFriends(us_code2)
         <div class="gg" >
         <div class="card shadow-sm">
             <div class="card-body">
-                <div style="height: 200px;">
+                <div style="height: 150px;">
                     <img src="images/basic-profile.png" style="width: 100%; height: 100%;" />
                 </div>
                 <div class="card-text">이름</div>
@@ -443,6 +463,14 @@ function addFriends(us_code2)
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+        	<ul>
+        		<li>프로필</li>
+        		<li>친구</li>
+        		<li>쪽지</li>
+        		<li>고객센터</li>
+        	</ul>
         </div>
     </div>
       
